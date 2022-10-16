@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books & More. Best Offers!
+    </title>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Roboto, Arial, sans-serif;
+        }
+
+        .vcenter {
+            display: flex;
+            align-items: center;
+        }
+
+        nav {
+            background-color: #2874f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .bar {
+            width: 1248px;
+            height: 56px;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            width: 137px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            justify-content: center;
+        }
+
+        .logoflipkart img {
+            width: 75px;
+            height: 20px;
+        }
+
+        .exploreplus {
+            display: flex;
+            font-size: 11px;
+            color: #fff;
+            font-style: italic;
+            font-family: Roboto, Arial, sans-serif;
+            margin-right: 8px;
+        }
+
+        .plusclr {
+            color: #ffe11b;
+            font-weight: 550;
+        }
+
+        .search {
+            width: 565px;
+            margin: 0 12px 0 12px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .entersearch {
+            width: 100%;
+        }
+
+        input {
+            width: 100%;
+            height: 36px;
+            background-color: #fff;
+            border-radius: 2px 0 0 2px;
+            border: 0;
+            outline: 0 none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-left: 16px;
+        }
+
+        .buttonsearch {
+            background-color: #fff;
+            height: 36px;
+            border-radius: 0 2px 2px 0;
+            padding-right: 12px;
+            color: #2874f0;
+            font-weight: 400;
+        }
+
+        .login {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 123px;
+            height: 31px;
+            background-color: #fff;
+            color: #2874f0;
+            border-radius: 2px;
+            font-weight: bold;
+            margin: 0px 20px;
+        }
+
+        .becomeseller {
+            color: #fff;
+            font-weight: 500;
+            margin: 0px 20px;
+        }
+
+        .more {
+            color: #fff;
+            margin: 0 20px;
+        }
+
+        .cart {
+            color: #fff;
+            margin: 0 20px;
+        }
+
+        .main01 {
+            box-shadow: 0 1px 1px 0 rgba(0, 0, 0, .16);
+        }
+
+        .maina {
+            display: flex;
+            justify-content: space-between;
+            padding: 12px 140px;
+            background-color: #fff;
+        }
+
+        .barm {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #000;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .barm img {
+            width: 64px;
+            height: 64px;
+            margin-bottom: 5px;
+        }
+        .animation{
+            display: flex;
+            animation: slide 16s ease-in-out 2s infinite;
+        }
+        .animation img{
+            width: 100vw;
+            height: auto;
+        }
+        /* @keyframes slide {
+            from{transform: translatex(0vw);}
+            to{transform: translateX(-400vw);}
+        } */
+        .mainb img{
+            justify-content: center;
+            margin: 0 auto;
+            height: 130px;
+            width: 1500px;
+        }
+        .mainc img{
+            width: 493px;
+            height: auto;
+        }
+        .mainc {
+            margin: 0px 8px;
+            display: grid;
+            justify-content: space-between;
+            grid-template-columns: auto auto auto;
+            grid-template-rows: auto auto auto auto;
+            grid-column-gap:10px;
+            grid-row-gap: 10px;
+        }
+        .footer{
+            height: 72px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            background-color: #212121;
+            color: #fff;
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .footer img{
+            height: 16px;
+            width: auto;
+            margin-right: 2px;
+        }
+        .footer1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="bar">
+            <div class="logo">
+                <div class="logoflipkart"><img src="image/logo.png" alt="logo"></div>
+                <div class="exploreplus">Explore <div class="plusclr"> Plus</div>
+                </div>
+            </div>
+            <div class="search vcenter">
+                <div class="entersearch vcenter"><input type="text" title="Search for products, brands and more"
+                        placeholder="Search for products, brands and more"></div>
+                <div class="buttonsearch vcenter"><span class="material-symbols-outlined">
+                        search
+                    </span></div>
+            </div>
+            <div class="login">Login</div>
+            <div class="becomeseller vcenter">Become a Seller</div>
+            <div class="more vcenter"><span>More</span><span><span class="material-symbols-outlined">
+                        keyboard_arrow_down
+                    </span></span></div>
+            <div class="cart vcenter"><span class="material-symbols-outlined">
+                    shopping_cart
+                </span><span class="bold">Cart</span></div>
+        </div>
+    </nav>
+    <div class="main01">
+        <div class="maina">
+            <div class="barm"><img src="image/bar01.png" alt="Text"><span>Top Offers</span></div>
+            <div class="barm"><img src="image/bar02.png" alt="Text"><span>Mobile and tablets</span></div>
+            <div class="barm"><img src="image/bar03.png" alt="Text"><span>Electronics</span></div>
+            <div class="barm"><img src="image/bar04.png" alt="Text"><span>TVs & Appliances</span></div>
+            <div class="barm"><img src="image/bar05.png" alt="Text"><span>Fashion</span></div>
+            <div class="barm"><img src="image/bar06.webp" alt="Text"><span>Beauty</span></div>
+            <div class="barm"><img src="image/bar07.webp" alt="Text"><span>Home & Furniture</span></div>
+            <div class="barm"><img src="image/bar08.webp" alt="Text"><span>FK Originals</span></div>
+            <div class="barm"><img src="image/bar09.webp" alt="Text"><span>Flights & Hotels</span></div>
+            <div class="barm"><img src="image/bar10.webp" alt="Text"><span>Grocery</span></div>
+        </div>
+        <div class="animation">
+            <div class="main01 first">
+                <img src="image/main01.webp" alt="Four Photos">
+            </div>
+            <!-- <div class="main01 second">
+                <img src="image/main02.webp" alt="Four Photos">
+            </div>
+            <div class="main01 third">
+                <img src="image/main03.webp" alt="Four Photos">
+            </div>
+            <div class="main01 forth">
+                <img src="image/main04.webp" alt="Four Photos">
+            </div> -->
+        </div>
+        <div class="mainb"><img src="image/maina.webp" alt=""></div>
+        <div class="mainc">
+            <img src="image/mainb01.webp" alt="12 Photos">
+            <img src="image/mainb02.webp" alt="12 Photos">
+            <img src="image/mainb03.webp" alt="12 Photos">
+            <img src="image/mainb04.jpg" alt="12 Photos">
+            <img src="image/mainb05.jpg" alt="12 Photos">
+            <img src="image/mainb06.jpg" alt="12 Photos">
+            <img src="image/mainb07.webp" alt="12 Photos">
+            <img src="image/mainb08.webp" alt="12 Photos">
+            <img src="image/mainb09.webp" alt="12 Photos">
+            <img src="image/mainb10.webp" alt="12 Photos">
+            <img src="image/mainb11.jpg" alt="12 Photos">
+            <img src="image/mainb12.webp" alt="12 Photos">
+        </div>
+        <div class="footer">
+            <div class="footer1"><img src="image/footer01.svg" alt="">Become a seller</div>
+            <div class="footer1"><img src="image/footer02.svg" alt="">Advertise</div>
+            <div class="footer1"><img src="image/footer03.svg" alt="">Gift Cards</div>
+            <div class="footer1"><img src="image/footer04.svg" alt="">Help Center</div>
+            <div class="footer2">&copy; 2007-2022 Flipkart.com</div>
+            <div class="footer3"><img src="image/footerb05.svg" alt=""></div>
+        </div>
+    </div>
+</body>
+
+</html>
